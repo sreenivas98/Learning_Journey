@@ -3,4 +3,7 @@ title: "My first post - Selecting a Language"
 date: 2023-01-23
 
 ---
-This is my first post and I am still in the deciding phase of choosing a programming language to learn.
+In order to advance my career as a developer, I have chosen to master the C# programming language as a part of the software engineering class.
+
+** Reasons **
+
