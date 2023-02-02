@@ -27,7 +27,7 @@ dotnet --version
 dotnet new console
 ```
 6. Open the project in VS code and write the C# code in program.cs file created by running the above code and save the file.
-7. There are two ways to run the C# program:
+7. There are two ways to run the C# program in VS Code:
 
 
    a. Using terminal code: open a new terminal and run the below code to get the output.
