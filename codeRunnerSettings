@@ -1,1 +1,6 @@
-Hello
+Step 1: Go to files -> preferences -> settings.
+Step 2: Search "run in terminal". Scroll down and check the option "whether to run code in Code Terminal" under "Code-Runner:Run in terminal".
+Step 3: Click on settings.json file option on the top-right corner to open settings.json file.
+Step 4: In settings.json file write "code" and select "code-runner.executorMap.
+Step 5: Scroll up and down until you find "csharp: 'scriptcs'," and replace "scriptcs" with the given code - "cd $dir && dotnet run $FileName"
+Step 6: Close all tabs in VS code except for the program tab and click on the play button on the top right corner to run your program and get output in the terminal window below.
