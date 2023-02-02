@@ -13,6 +13,8 @@ I've downloaded and installed the most recent version of the <a href="https://do
 <br>
 <br>
 There are a few steps involved in setting up the whole environment to create,edit and run c# programs:
+<br>
+<br>
 1. Download and install .NET framework (v7.0) from official microsoft site. To check if .NET is installed on our system, run the below code in windows powershell.
 
 ```
