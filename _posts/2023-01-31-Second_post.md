@@ -34,6 +34,10 @@ dotnet new console
    ```
    dotnet run
    ```
-   b. Using Code Runner extension: <a href="">Go To Settings document</a>
+   b. Using Code Runner extension: <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/codeRunnerSettings">Go To Settings document</a>
 
 <h2>Writing the First Program</h2>
+
+I created the standard program that every programmer learns to create, the Hello World Program, <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/W3rBasic/W3rBasicQ1">helloWorld.cs</a> but I made a tiny modification based on the programming question offered by w3Resources. I created two print statements, one to print hello and the other to print my name. C# and C++ have nearly identical syntax. 
+
+To show that we are using the classes from the System package, we put ```using System``` on the first line, followed by ```namespace NameSpaceName``` to organize our code. Each block of code is enclosed within flower braces "{}". As in java we create a class which contains the main method and write the main method as a member function of that class.
