@@ -41,3 +41,5 @@ dotnet new console
 I created the standard program that every programmer learns to create, the Hello World Program but I made a tiny modification based on the programming question offered by w3Resources. I created two print statements, one to print hello and the other to print my name. C# and C++ have nearly identical syntax. 
 
 To show that we are using the classes from the System package, we put ```using System``` on the first line, followed by ```namespace NameSpaceName``` to organize our code. Each block of code is enclosed within flower braces "{}". As C# is a programming language that adheres to the Object Oriented Programming methodology, we build a class that contains the main method and write the main method as a member function of that class, similarly to Java.
+
+To refer my first C#program code click <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/W3rBasic/W3rBasicQ1">W3Resorurce_Basic_Q1.cs</a>
