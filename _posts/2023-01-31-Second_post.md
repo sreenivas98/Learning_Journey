@@ -7,8 +7,7 @@ While browsing the internet, I discovered <a href="https://www.w3schools.com/cs/
 
 <h2>Basic Environment Setup</h2>
 The first and most important step in any programming language is to build up the appropriate infrastructure for producing and using program files. We must install the.NET framework on our system in order to use the C# programming language, which is required to compile and run C# programs. Microsoft created the.NET framework to let developers build a variety of apps, from straightforward web applications to sophisticated video games.
-
-
+<br>
 I've downloaded and installed the most recent version of the <a href="https://dotnet.microsoft.com/en-us/download">.NET framework (V7.0)</a> from the official Microsoft website, along with <a href="https://code.visualstudio.com/Download">Visual Studio Code</a>, which allows me to edit C# program files.
 
 There are a few steps involved in setting up the whole environment to create,edit and run c# programs:
