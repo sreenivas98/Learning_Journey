@@ -14,31 +14,24 @@ I've downloaded and installed the most recent version of the <a href="https://do
 <br>
 There are a few steps involved in setting up the whole environment to create,edit and run c# programs:
 <br>
-<br>
-1. Download and install .NET framework (v7.0) from official microsoft site. To check if .NET is installed on our system, run the below code in windows powershell.
 
+1. Download and install .NET framework (v7.0) from official microsoft site. To check if .NET is installed on our system, run the below code in windows powershell.
 ```
 dotnet --version
 ```
-
 2. Download and install Visual Studio Code from official site.
 3. Add C# extension to Visual Studio Code.
 4. Add Code Runner extension to Visual Studio Code.
 5. Create a basic console app for use in VS code by navigating to the desired folder in command prompt and running the below code in command prompt.
-
 ```
 dotnet new console
 ```
-
 6. Open the project in VS code and write the C# code in program.cs file created by running the above code and save the file.
 7. There are two ways to run the C# program:
-
    a. Using terminal code: open a new terminal and run the below code to get the output.
-   
       ```
       dotnet run
       ```
-      
    b. Using Code Runner extension: <a href="">Go To Settings document</a>
 
 <h2>Writing the First Program</h2>
