@@ -10,7 +10,8 @@ The first and most important step in any programming language is to build up the
 <br>
 <br>
 I've downloaded and installed the most recent version of the <a href="https://dotnet.microsoft.com/en-us/download">.NET framework (V7.0)</a> from the official Microsoft website, along with <a href="https://code.visualstudio.com/Download">Visual Studio Code</a>, which allows me to edit C# program files.
-
+<br>
+<br>
 There are a few steps involved in setting up the whole environment to create,edit and run c# programs:
 1. Download and install .NET framework (v7.0) from official microsoft site. To check if .NET is installed on our system, run the below code in windows powershell.
 
