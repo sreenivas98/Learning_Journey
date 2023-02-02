@@ -31,9 +31,9 @@ dotnet new console
 
 
    a. Using terminal code: open a new terminal and run the below code to get the output.
-      ```
-      dotnet run
-      ```
+```
+dotnet run
+```
    b. Using Code Runner extension: <a href="">Go To Settings document</a>
 
 <h2>Writing the First Program</h2>
