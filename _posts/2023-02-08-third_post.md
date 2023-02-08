@@ -3,7 +3,12 @@ title: Baby steps in my learning journey
 date: 2023-02-08
 ---
 
-The first step in learning any programming language is to learn the uses of that language.
+The first step in learning any programming language is to learn the uses of that language. Since I am a software geek like the other programmers, this was my initial move. Learning how to use a programming language inspires and encourages you to gain knowledge of the fundamental to advanced concepts involved in creating programs using that language.
+
+<h2>Applications of C#</h2>
+Applications that are both standalone and online may be created using C#. The sole drawback of C# is that it requires the.NET framework in order for applications created with it to function. Microsoft created the programming language C# specifically to build and run programs on the.NET framework.
+
+C# is considered as the closest rival to java since both  the programming languages have almost same applications 
 
 <h2>Basic Environment Setup</h2>
 The first and most important step in any programming language is to build up the appropriate infrastructure for producing and using program files. We must install the.NET framework on our system in order to use the C# programming language, which is required to compile and run C# programs. Microsoft created the.NET framework to let developers build a variety of apps, from straightforward web applications to sophisticated video games.
