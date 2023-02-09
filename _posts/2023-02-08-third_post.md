@@ -104,3 +104,7 @@ Explicit type casting can be done by two ways:
 1. By place the type in parantheses in front of the value.
 2. By using built-in methods like ```Convert.ToBoolean```, ```Convert.ToDouble```, ```Convert.ToString```, ```Convert.ToInt32(int)```, etc.
 
+In order to show both implicit and explicit casting, I wrote two programs as a type casting exercise.
+1. Implicit casting: <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/w3schools_practice/ImplicitCasting.cs">ImplicitCasting.cs</a>
+2. Explicit casting: <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/w3schools_practice/ExplicitCasting.cs">ExplicitCasting.cs</a>
+
