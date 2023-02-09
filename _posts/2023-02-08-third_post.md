@@ -38,18 +38,9 @@ Line4: A block of code has a beginning and an end indicated by curly brackets ('
 
 Line5: A class is a container for data and operations that gives your application functionality. Every line of C# code that executes must be contained within a class. We gave the class in our example the name Program.
 
-<br>
-I've downloaded and installed the most recent version of the <a href="https://dotnet.microsoft.com/en-us/download">.NET framework (V7.0)</a> from the official Microsoft website, along with <a href="https://code.visualstudio.com/Download">Visual Studio Code</a>, which allows me to edit C# program files.
-<br>
-<br>
-There are a few steps involved in setting up the whole environment to create,edit and run c# programs:
-<br>
+<h2>Learning Datatypes and TypeCasting</h2>
+Now that I am familiar with C# fundamental  grammar, I must continue on my trip. The next step is to become familiar with the many datatypes that are offered by this language. There are seven basic datatypes offered by C#, including int(size:4bytes) and long(size:8bytes) for integer numbers, float(size:4bytes) and double(size:8bytes) for decimal numbers, char(size:2bytes) for a single character (either alphabetic or special), bool for a boolean datatype with a value of 0 or 1, and string for holding a collection of characters.
+
+Below are a few programs of c# that I have written for demonstrating the different datatypes present in c#:
 
 
-<h2>Writing the First Program</h2>
-
-I created the standard program that every programmer learns to create, the Hello World Program but I made a tiny modification based on the programming question offered by w3Resources. I created two print statements, one to print hello and the other to print my name. C# and C++ have nearly identical syntax. 
-
-To show that we are using the classes from the System package, we put ```using System``` on the first line, followed by ```namespace NameSpaceName``` to organize our code. Each block of code is enclosed within flower braces "{}". As C# is a programming language that adheres to the Object Oriented Programming methodology, we build a class that contains the main method and write the main method as a member function of that class, similarly to Java.
-
-To refer my first C#program code click <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/W3rBasic/W3rBasicQ1">W3Resorurce_Basic_Q1.cs</a>
