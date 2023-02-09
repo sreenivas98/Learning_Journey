@@ -8,11 +8,26 @@ The first step in learning any programming language is to learn the uses of that
 <h2>Applications of C#</h2>
 Applications that are both standalone and online may be created using C#. The sole drawback of C# is that it requires the.NET framework in order for applications created with it to function. Microsoft created the programming language C# specifically to build and run programs on the.NET framework.
 
-C# is considered as the closest rival to java since both  the programming languages have almost same applications 
+Although C# is not as well-known as Java, it is regarded as Java's most direct competitor since the two languages have many of the same applications.The creation of video games using the "Unity Game Engine" is the most well-known application of C#.
 
-<h2>Basic Environment Setup</h2>
-The first and most important step in any programming language is to build up the appropriate infrastructure for producing and using program files. We must install the.NET framework on our system in order to use the C# programming language, which is required to compile and run C# programs. Microsoft created the.NET framework to let developers build a variety of apps, from straightforward web applications to sophisticated video games.
-<br>
+Microsoft Windows (the operating system), Visual Studio (the code editor), Microsoft Office, AutoCAD, Adobe Photoshop, and Spotify are just a few of the well-known applications that were created utilizing C# and the.NET framework.
+
+<h2>The Basic Syntax - Essential to every programming language</h2>
+My next step after learning about applications C#, was to understand the language's fundamental syntax. To do this, the sample program below was quite helpful.
+```
+using System;
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
+```
+
 <br>
 I've downloaded and installed the most recent version of the <a href="https://dotnet.microsoft.com/en-us/download">.NET framework (V7.0)</a> from the official Microsoft website, along with <a href="https://code.visualstudio.com/Download">Visual Studio Code</a>, which allows me to edit C# program files.
 <br>
