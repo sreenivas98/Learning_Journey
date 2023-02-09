@@ -41,6 +41,66 @@ Line5: A class is a container for data and operations that gives your applicatio
 <h2>Learning Datatypes and TypeCasting</h2>
 Now that I am familiar with C# fundamental  grammar, I must continue on my trip. The next step is to become familiar with the many datatypes that are offered by this language. There are seven basic datatypes offered by C#, including int(size:4bytes) and long(size:8bytes) for integer numbers, float(size:4bytes) and double(size:8bytes) for decimal numbers, char(size:2bytes) for a single character (either alphabetic or special), bool for a boolean datatype with a value of 0 or 1, and string for holding a collection of characters.
 
-Below are a few programs of c# that I have written for demonstrating the different datatypes present in c#:
+Below are a few programs of c# that I have written for demonstrating the different datatypes present in c# by creating a variable with the mentioned datatype and printing them out onto the terminal screen:
 
+1. int: size - 4 bytes;  range - (-2,147,483,648 to 2,147,483,647)
+```
+int x=10000;
+Console.WriteLine(x);
+```
+
+2. long: size - 8 bytes;  range - (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+```
+long x=1000000000000L;
+Console.WriteLine(x);
+```
+
+3. float: size - 4 bytes;  range - stores 6 to 7 decimal digits
+```
+float x=15.09F;
+Console.WriteLine(x);
+```
+
+4. double: size - 8 bytes;  range - stores up to 15 decimal digits
+```
+double x=15.9865444D;
+Console.WriteLine(x);
+```
+
+5. bool: size - 1 bit; value - either 0(false) or 1(true)
+```
+bool valueT=true;
+bool valueF=false;
+Console.WriteLine(valueT);
+Console.WriteLine(valueF);
+```
+
+6. char: size - 2 bytes; values - alphabets or special characters
+```
+char alphabet='S';
+Console.WriteLine(alphabet);
+```
+
+7. string: size - 2bytes for each character included; values - collection of characters
+```
+string greeter="Hello World!";
+Console.WriteLine(greeter);
+```
+
+Given that type casting exists in every language When I started looking for the types or concepts of type casting in C#, I discovered several websites that provided explanations. Type casting basically entails changing a variable from one data type to another. This process appears straightforward, but there is a catch. For instance, you cannot type cast a long variable into an integer since long has a far higher range than int, and you also cannot type convert a double variable into a float automatically. Although you can perform manual typecasting also known as Explicit type casting for converting long to int and double to float.
+
+There are two types of type casting:
+1. Implicit casting: converting of smaller type to larger type automatically.
+```
+char -> int -> long -> float -> double
+```
+
+2. Explicit casting: converting a larger type to smaller type manually.
+```
+double -> float -> long -> int ->char
+```
+
+Explicit type casting can be done by two ways:
+1. By place the type in parantheses in front of the value.
+2. By using built-in methods like ```Convert.ToBoolean```, ```Convert.ToDouble```, ```Convert.ToString```, ```Convert.ToInt32(int)```, etc.
 
