@@ -28,6 +28,15 @@ namespace HelloWorld
   }
 }
 ```
+Line1: Using System means that we can use classes from the System namespace.
+
+Line2: White space is ignored in C#. The code is better understandable when there are more lines, though. 
+
+Line3: A namespace serves as a container for classes and other namespaces and is used to structure your code. 
+
+Line4: A block of code has a beginning and an end indicated by curly brackets ('{}'). 
+
+Line5: A class is a container for data and operations that gives your application functionality. Every line of C# code that executes must be contained within a class. We gave the class in our example the name Program.
 
 <br>
 I've downloaded and installed the most recent version of the <a href="https://dotnet.microsoft.com/en-us/download">.NET framework (V7.0)</a> from the official Microsoft website, along with <a href="https://code.visualstudio.com/Download">Visual Studio Code</a>, which allows me to edit C# program files.
@@ -36,26 +45,6 @@ I've downloaded and installed the most recent version of the <a href="https://do
 There are a few steps involved in setting up the whole environment to create,edit and run c# programs:
 <br>
 
-1. Download and install .NET framework (v7.0) from official microsoft site. To check if .NET is installed on our system, run the below code in windows powershell.
-```
-dotnet --version
-```
-2. Download and install Visual Studio Code from official site.
-3. Add C# extension to Visual Studio Code.
-4. Add Code Runner extension to Visual Studio Code.
-5. Create a basic console app for use in VS code by navigating to the desired folder in command prompt and running the below code in command prompt.
-```
-dotnet new console
-```
-6. Open the project in VS code and write the C# code in program.cs file created by running the above code and save the file.
-7. There are two ways to run the C# program in VS Code:
-
-
-   a. Using terminal code: open a new terminal and run the below code to get the output.
-   ```
-   dotnet run
-   ```
-   b. Using Code Runner extension: <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/codeRunnerSettings">Go To Settings document</a>
 
 <h2>Writing the First Program</h2>
 
