@@ -15,6 +15,7 @@ Microsoft Windows (the operating system), Visual Studio (the code editor), Micro
 <h2>The Basic Syntax - Essential to every programming language</h2>
 My next step after learning about applications C#, was to understand the language's fundamental syntax. To do this, the sample program below was quite helpful.
 ```
+
 using System;
 namespace HelloWorld
 {
@@ -26,6 +27,7 @@ namespace HelloWorld
     }
   }
 }
+
 ```
 
 <br>
