@@ -19,13 +19,13 @@ class W3rConditionalQ11 {
         Console.WriteLine("Second Root Root2= {0}",x2);
     }
     else if(d>0)
-	{
-	    Console.WriteLine("Both roots are real and diff-2");
-	    x1=(-b+Math.Sqrt(d))/(2*a);
-	    x2=(-b-Math.Sqrt(d))/(2*a);
-	    Console.WriteLine("First  Root Root1= {0}",x1);
-	    Console.WriteLine("Second Root root2= {0}",x2);
-	}
+    {
+	Console.WriteLine("Both roots are real and diff-2");
+        x1=(-b+Math.Sqrt(d))/(2*a);
+        x2=(-b-Math.Sqrt(d))/(2*a);
+        Console.WriteLine("First  Root Root1= {0}",x1);
+        Console.WriteLine("Second Root root2= {0}",x2);
+    }
     else
         Console.WriteLine("Roots are imaginary");
   }
