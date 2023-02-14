@@ -3,7 +3,7 @@ title: Conditional Statements and Looping
 date: 2023-02-15
 ---
 
-The fundamentals of C#, including the syntax, data types, and type casting, are now under my belt. It's time to advance and study conditional and looping expressions.
+The fundamentals of C#, including the syntax, data types, and type casting, are now under my belt. It's time to advance and study operators, conditional and looping expressions. 
 
 <h2>Applications of C#</h2>
 Applications that are both standalone and online may be created using C#. The sole drawback of C# is that it requires the.NET framework in order for applications created with it to function. Microsoft created the programming language C# specifically to build and run programs on the.NET framework.
