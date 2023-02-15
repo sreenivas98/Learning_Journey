@@ -3,7 +3,7 @@ title: Conditional Statements and Looping
 date: 2023-02-15
 ---
 
-The fundamentals of C#, including the syntax, data types, and type casting, are now under my belt. It's time to advance and study operators, conditional and looping expressions. 
+The fundamentals of C#, including the syntax, data types, and type casting, are now under my belt. It's time to advance and study operators, conditional and looping expressions. Learning the operators was simple because most of the operators in c# are also accessible in java, c++, and python, all of which I am quite acquainted with.
 
 <h2>Playing with Conditional Statements</h2>
 I've advanced to understanding conditional statements and expressions after learning the different C# operators. The "if," "if else," and "else if" conditional statements are included in C#, along with one extra conditional statement known as the ternary operator or the shorthand if...else. The following are some examples which helped me understand these conditional statements:
@@ -105,3 +105,10 @@ foreach (type variableName in arrayName)
 To practice building programs using foreach loops, I needed to master array declaration and initialization in c#. Fortunately, arrays in c# were extremely similar to arrays in java programming language, and I already knew java. I was able to develop programs that used foreach and, thankfully, brush up on my array abilities in the process. To test foreach loop in c#, I have written a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/w3schools_practice/ForEachPractice.cs">program to print all the elements of an array</a>.
 
 I was able to put my understanding of looping statements to the test by creating programs that use for, while, and do while loops. To illustrate all three loops, I wrote a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Loops/Q1.cs">program to display the first ten natural numbers</a>, and to practice the while loop, I wrote a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Loops/Q3.cs">program to display n natural numbers, their total, and average</a>.
+
+<h2>Difficulties faced</h2>
+This week I had a few problems with my learning process, one of which was not being familiar with presenting the computed output with some text using "'Console.WriteLine"'. I looked up various program examples online and discovered how to output a computed result or value in a variable. Another problem I encountered was with VSCode, which is used as an editor and to run C# applications. The problem was that every time I wrote a new program in VSCode, I had to create a whole new project, and attempting to write a program in an existing project by creating a new file resulted in the following error.
+```
+multiple main methods being called
+```
+To go around the VSCode issue, I had to utilize the <a href="https://www.onlinegdb.com">Online GDB compiler</a> to test my code. My major aim for the beginning of next week is to solve my VSCode problem and continue my learning adventure.
