@@ -67,7 +67,7 @@ switch (day)
 }
 ```
 In the code above, the switch statement's default block is executed since the number 4 is absent in all situations.
-At the conclusion of my study of conditional statements, I used the knowledge I had gained to answer programming problems highlighted by W3Resources on the internet. I have written various programs using conditional statements such as <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/ConditionalStatements/Q1.cs">'Checking whether two numbers are equal'</a>, <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/ConditionalStatements/Q11.cs">'Calculating quadratic equation roots'</a> and so on.To view all my practice problems on conditional statements, visit <a href="https://github.com/sreenivas98/Learning_Journey/tree/main/CodePractice/ConditionalStatements">Conditional Statements Practice</a>
+At the conclusion of my study of conditional statements, I used the knowledge I had gained to answer programming problems highlighted by W3Resources on the internet. I have written various programs using conditional statements such as <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/ConditionalStatements/Q1.cs">'Checking whether two numbers are equal'</a>, <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/ConditionalStatements/Q11.cs">'Calculating quadratic equation roots'</a> and so on.To view all my practice problems on conditional statements, visit <a href="https://github.com/sreenivas98/Learning_Journey/tree/main/CodePractice/ConditionalStatements">Conditional Statements Practice</a>.
 
 <h2>Handling Loops like a pro.</h2>
 
