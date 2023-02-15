@@ -49,6 +49,26 @@ int time = 20;
 string result = (time < 18) ? "Good day." : "Good evening.";
 Console.WriteLine(result);
 ```
-<h2></h2>
+
+We also have a switch statement that, in addition to these conditional statements, chooses the code block based on the value we pass to the switch case. I've used the example below as a guide so I can comprehend it easily.
+```
+int day = 4;
+switch (day) 
+{
+  case 6:
+    Console.WriteLine("Today is Saturday.");
+    break;
+  case 7:
+    Console.WriteLine("Today is Sunday.");
+    break;
+  default:
+    Console.WriteLine("Looking forward to the Weekend.");
+    break;
+}
+```
+In the code above, the switch statement's default block is executed since the number 4 is absent in all situations.
+At the conclusion of my study of conditional statements, I used the knowledge I had gained to answer programming problems highlighted by W3Resources on the internet. I have written various programs using conditional statements such as <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/ConditionalStatements/Q1.cs">'Checking whether two numbers are equal'</a>, <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/ConditionalStatements/Q11.cs">'Calculating quadratic equation roots'</a> and so on.To view all my practice problems on conditional statements, visit <a href="https://github.com/sreenivas98/Learning_Journey/tree/main/CodePractice/ConditionalStatements">Conditional Statements Practice</a>
+
+<h2>Handling Loops like a pro.</h2>
 
 
