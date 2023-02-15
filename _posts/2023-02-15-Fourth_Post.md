@@ -71,4 +71,19 @@ At the conclusion of my study of conditional statements, I used the knowledge I 
 
 <h2>Handling Loops like a pro.</h2>
 
-I am already familiar with all of the loops accessible in c# because the concepts and implementations of all loops in c# and java programming languages are the same, covering "for", "while", and "do while" loops. Despite my familiarity with the notion, I began creating programs in C# that implemented the concept of loops to sharpen my abilities and test my understanding of this particular subject. To do this, I reviewed many programming questions on loops from <a href="https://www.w3resource.com/csharp-exercises/for-loop/index.php">W3Resources</a> on the internet.
+I am already familiar with all of the loops accessible in c# because the concepts and implementations of several loops in c# and java programming languages are the same, covering "for", "while", and "do while" loops. Despite my familiarity with the notion, I began creating programs in C# that implemented the concept of loops to sharpen my abilities and test my understanding of this particular subject. To do this, I reviewed many programming questions on loops from <a href="https://www.w3resource.com/csharp-exercises/for-loop/index.php">W3Resources</a> on the internet.
+The following is the basic syntax of various loops:
+1. ***for***
+```
+for (intialization; condition; increment) 
+{
+  // code block to be executed
+}
+```
+2. ***while***
+```
+while (condition) 
+{
+  // code block to be executed
+}
+```
