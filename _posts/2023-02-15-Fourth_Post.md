@@ -103,3 +103,5 @@ foreach (type variableName in arrayName)
 }
 ```
 To practice building programs using foreach loops, I needed to master array declaration and initialization in c#. Fortunately, arrays in c# were extremely similar to arrays in java programming language, and I already knew java. I was able to develop programs that used foreach and, thankfully, brush up on my array abilities in the process. To test foreach loop in c#, I have written a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/w3schools_practice/ForEachPractice.cs">program to print all the elements of an array</a>.
+
+I was able to put my understanding of looping statements to the test by creating programs that use for, while, and do while loops. To illustrate all three loops, I wrote a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Loops/Q1.cs">program to display the first ten natural numbers</a>, and to practice the while loop, I wrote a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Loops/Q3.cs">program to display n natural numbers, their total, and average</a>.
