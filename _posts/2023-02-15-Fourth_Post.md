@@ -87,3 +87,19 @@ while (condition)
   // code block to be executed
 }
 ```
+3. ***do while***
+```
+do
+{
+  //  code block to be executed
+} while (condition);
+```
+
+Along with all of these loops, I've discovered a new looping concept: the foreach loop in C#. The foreach loop is mostly used to scan through arrays in order to print out the contents or execute other actions on the array elements. The syntax for a ***foreach*** loop is as follows:
+```
+foreach (type variableName in arrayName) 
+{
+  // code block to be executed
+}
+```
+To practice building programs using foreach loops, I needed to master array declaration and initialization in c#. Fortunately, arrays in c# were extremely similar to arrays in java programming language, and I already knew java. I was able to develop programs that used foreach and, thankfully, brush up on my array abilities in the process. To test foreach loop in c#, I have written a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/w3schools_practice/ForEachPractice.cs">program to print all the elements of an array</a>.
