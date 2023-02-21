@@ -1,6 +1,6 @@
 ---
-title: Methods and overloading
-date: 2023-02-21
+title: Methods and Method overloading
+date: 2023-02-22
 ---
 
 The fundamentals of C#, including the syntax, data types, and type casting, are now under my belt. It's time to advance and study operators, conditional and looping expressions. Learning the operators was simple because most of the operators in c# are also accessible in java, c++, and python, all of which I am quite acquainted with.
