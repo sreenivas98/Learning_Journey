@@ -71,5 +71,9 @@ I've created and tested the following C# programs to demonstrate my understandin
 2. <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Methods/PowerMethod.cs">Method to calculate the result of an integer raised to power of another integer</a>
 3. <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Methods/FibonacciSeries.cs">Method to return a fibonacci series upto n numbers</a>
 
-We can solve many problems by dividing the whole problem into sub problems, and writing recursive functions is the best thing to do so. Recursive methods are functions that call themselves within their own definition. Recursive methods have a base case and a recursive case. The base case is the stopping condition that prevents the function from calling itself indefinitely. The recursive case is the part of the function that calls itself with a smaller or simpler input, eventually leading to the base case. To test my understanding of recursive methods I have written a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Methods/RecursiveFactorial.cs">recursive method to cal culate the factorial of a given number</a>.
+We can solve many problems by dividing the whole problem into sub problems, and writing recursive functions is the best thing to do so. Recursive methods are functions that call themselves within their own definition. Recursive methods have a base case and a recursive case. The base case is the stopping condition that prevents the function from calling itself indefinitely. The recursive case is the part of the function that calls itself with a smaller or simpler input, eventually leading to the base case. To test my understanding of recursive methods I have written a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Methods/RecursiveFactorial.cs">recursive method to calculate the factorial of a given number</a>.
+
+The 
+
 <h2>Difficulties Faced and Solutions Derived</h2>
+
