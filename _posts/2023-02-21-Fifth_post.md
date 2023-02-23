@@ -73,7 +73,14 @@ I've created and tested the following C# programs to demonstrate my understandin
 
 We can solve many problems by dividing the whole problem into sub problems, and writing recursive functions is the best thing to do so. Recursive methods are functions that call themselves within their own definition. Recursive methods have a base case and a recursive case. The base case is the stopping condition that prevents the function from calling itself indefinitely. The recursive case is the part of the function that calls itself with a smaller or simpler input, eventually leading to the base case. To test my understanding of recursive methods I have written a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Methods/RecursiveFactorial.cs">recursive method to calculate the factorial of a given number</a>.
 
-The 
+C# being an object oriented programming language possess the ability of method overloading. The idea of method overloading states that a class may include numerous methods with the same name. Each method in method overloading has a distinct signature based on the quantity, type, and order of its parameters. Based on the inputs supplied to a method when it is called, the compiler chooses which method to run. One of the overloaded methods is run if the parameters match the method's signature. If not, the compiler will continue to search for overloaded methods until it finds one that matches the signature or an error is raised. The <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/Methods/MethodOverloading.cs">MethodOverloading.cs</a> example clearly explains the concept of method overloading where various methods having the same name are written with different return types as well as different types of parameters.
 
 <h2>Difficulties Faced and Solutions Derived</h2>
+I haven't had many difficulties learning this week. The only issue I've encountered was while attempting to use ```Console.WriteLine()``` to display an array's elements. I explored several different approaches to address this problem before discovering a predefined function from the string class called "Join()," which can be used to combine the elements of an array into a single string value that is separated by a given seperator. For example, we can use ```string.Join(",",array)``` to combine the array elements into a single string value seperated by commas. The below code explains the Join operator clearly.
 
+```
+int[] arr = {1,2,3,4,5}
+Console.Write("Array Elements: {0}",string.Join(",",arr));
+/* output
+Array Elements: 1,2,3,4,5*/
+```
