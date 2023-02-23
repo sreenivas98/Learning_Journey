@@ -83,5 +83,6 @@ I haven't had many difficulties learning this week. The only issue I've encounte
 int[] arr = {1,2,3,4,5}
 Console.Write("Array Elements: {0}",string.Join(",",arr));
 /* output
-Array Elements: 1,2,3,4,5*/
+Array Elements: 1,2,3,4,5
+*/
 ```
