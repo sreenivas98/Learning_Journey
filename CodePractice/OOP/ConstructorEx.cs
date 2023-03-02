@@ -1,22 +1,36 @@
 using System;
-class Car
+public class ConstructorEx
 {
-    string Model;
-    public Car(string Model)
+    public static void Main(string[] args)
     {
-        this.Model = Model;
-    }
-    public void getModel()
-    {
-        Console.WriteLine(Model);
+        int total = 3;
+        Person[] persons = new Person[total];
+        for (int i = 0; i < total; i++)
+        {
+            persons[i] = new Person(Console.ReadLine());
+        }
+        for (int i = 0; i < total; i++)
+        {
+            Console.WriteLine(persons[i].ToString());
+        }
+        Person Defaulter = new Person();
+        Console.WriteLine(Defaulter.ToString());
     }
 }
-
-class ConstructorEx
+ 
+public class Person
 {
-    static void Main(string[] args)
+    string Name;
+    public Person()
     {
-        Car myCar = new Car("BMW");
-        myCar.getModel();
+        Name="Default";
+    }
+    public Person(string Name)
+    {
+        this.Name=Name;
+    }
+    public override string ToString()
+    {
+        return "Hello! My name is " + Name;
     }
 }
