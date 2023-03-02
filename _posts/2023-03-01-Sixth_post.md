@@ -91,7 +91,7 @@ class Person
 }
 ```
 
-To better comprehend the concept of properties I have 
+To better comprehend the concept of properties I have written a <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/OOP/PropertyEx.cs">program with Car class using the concept of properties in c#</a>.
 
 <h2>Difficulties Faced</h2>
 I'm still having trouble with visual studio code, like I did last week. I still totally relied on the OnlineGDB compiler this week to test my programs. Understanding the idea of properties and the various C# implementations of them was another challenge I encountered this week. I spent additional time just on this idea before I was finally able to comprehend properties in C# with clarity.
