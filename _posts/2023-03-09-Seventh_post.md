@@ -76,6 +76,7 @@ class Parallelogram {
 }
 ```
 <h2>Next Week Goals</h2>
+
 I have a goal to fully understand all of the ***object-oriented programming*** ideas throughout the course of the upcoming week. In order to grasp object-oriented programming, I still need to understand ***abstraction*** and ***interfaces***. I want to learn about ***files*** and ***exceptions*** in the upcoming week when I've mastered these topics. I want to fully understand every C# idea that will be useful to me in pursuing a career as a.net developer by the conclusion of this semester.
 
 
