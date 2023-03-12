@@ -19,7 +19,7 @@ class Animal {
     }
   }
 
-  class InheritanceEx1 {
+  class SingleInheritanceEx {
 
     static void Main(string[] args) {
 
