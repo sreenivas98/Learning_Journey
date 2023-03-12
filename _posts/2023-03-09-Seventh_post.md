@@ -3,7 +3,7 @@ title: Inheritance, polymorphism and method overriding
 date: 2023-03-10
 ---
 
-I had fun last week studying the fundamentals of object-oriented programming; now it's time to go further into the concepts. Except for some syntax all the concepts of object oriented programming are very similar to OOP concepts in Java. I have used the programming questions from <a href="https://www.exercisescsharp.com/oop/">exercisecsharp</a> as well as from <a href="https://www.programiz.com/csharp-programming/inheritance">Programiz</a>to test my skills.
+I had fun last week studying the fundamentals of object-oriented programming; now it's time to go further into the concepts. Except for some syntax all the concepts of object oriented programming are very similar to OOP concepts in Java. I have used the programming questions from <a href="https://www.exercisescsharp.com/oop/">exercisecsharp</a> as well as from <a href="https://www.programiz.com/csharp-programming/inheritance">Programiz</a> to test my skills.
 
 <h2>Inheritance</h2>
 By allowing new classes to inherit the properties of existing classes, the notion of inheritance enables us to construct new classes from existing ones. The existing class from which new classes are created is known as the ***base class*** or ***parent class*** while the class which inherits the properties of this base class is known as ***child class*** or ***derived class***.
