@@ -38,7 +38,27 @@ There are many different types of inheritance possible in c#. They are:
 
 To demonstrate each inheritance type I have written and tested the following programs in c#: <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/OOP/SingleInheritanceEx.cs">SingleInheritanceEx.cs</a>, <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/OOP/MultilevelInheritanceEx.cs">MultilevelInheritanceEx.cs</a>, <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/OOP/HierarchialInheritanceEx.cs">HierarchicalInheritanceEx.cs</a>.
 
-<h2>Abstraction</h2>
+<h2>Polymorphism and Method overriding</h2>
+The word ***polymorphism*** means taking ***many forms***. This word is used in oop concepts because we can use the same function to perform different actions by overriding the method. For example if we have a base class A with a method func() and a derived class B which inherits A, we can write new implementation for the inherited method func() in class B and use this new functionality anywhere by just creating an object of class B and call the method func() by using the created object. To override a method in a derived class the method should be declared as either virtual or abstract. Below is the syntax for overriding of methods in which we use two crucial keywords ***virtual*** and ***override*** in base class and derived respectively to achieve method overriding:
+```
+class BaseClass {
+  public virtual returnType methodName(){
+   // implementation
+  }
+}
+class DerivedClass : BaseClass {
+  public override returnType methodName(){
+    // new implementation  
+  }
+}
+```
+There is a special keyword ***base*** to call the the base class methods from derived class. The basic syntax for doing is given below:
+```
+base.baseClassParameter 
+// this parameter can either be a method or a variable.
+```
+
+To demonstrate the concept of method overriding and base keyword I have written <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/OOP/MethodOverridingEx.cs">MethodOverridingEx.cs</a> program.
 
 <h2>Interfaces</h2>
 
