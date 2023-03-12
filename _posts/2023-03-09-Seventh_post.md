@@ -25,14 +25,14 @@ There are many different types of inheritance possible in c#. They are:
    Class A <-- Class B
    ```
 2. ***Multilevel Inheritance:*** In multilevel inheritance, a derived class inherits from a base and then the same derived class acts as a base class for another class.
-  ```
-  Class A <-- Class B <-- Class C
-  ```
+   ```
+   Class A <-- Class B <-- Class C
+   ```
 3. ***Hierarchical Inheritance:*** In hierarchical inheritance, multiple derived classes inherit from a single base class.
-  ```
-  Class A <-- Class B
-  Class A <-- Class C
-  ```
+   ```
+   Class A <-- Class B
+   Class A <-- Class C
+   ```
 4. ***Hybrid Inheritance:*** Hybrid inheritance is a combination of two or more types of inheritance. The combination of multilevel and hierarchical inheritance is an example of Hybrid inheritance.
 5. ***Multiple Inheritance:*** In multiple inheritance, a single derived class inherits from multiple base classes. C# doesn't support multiple inheritance. However, we can achieve multiple inheritance through interfaces.
 
