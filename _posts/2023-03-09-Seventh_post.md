@@ -1,5 +1,5 @@
 ---
-title: Inheritance, Abstraction and Interfaces
+title: Inheritance, polymorphism and method overriding
 date: 2023-03-10
 ---
 
@@ -64,9 +64,18 @@ base.baseClassParameter
 
 To demonstrate the concept of method overriding and base keyword I have written <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/OOP/MethodOverridingEx.cs">MethodOverridingEx.cs</a> program.
 
-<h2>Interfaces</h2>
+<h2>Difficulties Faced</h2>
+During this week's learning process, I have encountered two challenges. The first involves attempting to call a base class method from a derived class method, and the second involves comprehending the usage of the virtual keyword. I assumed that ***super*** would be the keyword used in c# to call or access base class parameters from derived classes as super was used in java. However, when I tried to use the super keyword in different forms, such as ***super*** and ***super()***, I found that this was not the case. So, I started to look for the exact keyword that could help me achieve this and after a thorough diiging through the internet I found the suitable keyword ***base*** to achieve my goal and succeeded. 
 
-<h2>Summary</h2>
-
+My other challenge was with understanding the usage of ***virtual*** keyword in c# programming language. To understand why this virtual keyword is used in c# i have gone though various websites ignoring microsoft's official website. Every website provided where this keyword was used but not the actual explanation of why. After going through various websites I decided to go through the explanation provided in <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual">microsoft official website</a> and this one provided a clear explanation of why and where this virtual keyword is used which helped understand everything about this special keyword in c# programming. The virtual keyword is used to modify a method, property, indexer, or event declaration and allow for it to be overridden in a derived class. For example the below method can be overridden by any class that inherits the below class:
+```
+class Parallelogram {
+  public virtual double Area() {
+      return x * y;
+  }
+}
+```
+<h2>Next Week Goals</h2>
+I have a goal to fully understand all of the ***object-oriented programming*** ideas throughout the course of the upcoming week. In order to grasp object-oriented programming, I still need to understand ***abstraction*** and ***interfaces***. I want to learn about ***files*** and ***exceptions*** in the upcoming week when I've mastered these topics. I want to fully understand every C# idea that will be useful to me in pursuing a career as a.net developer by the conclusion of this semester.
 
 
