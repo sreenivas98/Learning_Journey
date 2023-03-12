@@ -6,6 +6,7 @@ date: 2023-03-10
 I had fun last week studying the fundamentals of object-oriented programming; now it's time to go further into the concepts. Except for some syntax all the concepts of object oriented programming are very similar to OOP concepts in Java. I have used the programming questions from <a href="https://www.exercisescsharp.com/oop/">exercisecsharp</a> as well as from <a href="https://www.programiz.com/csharp-programming/inheritance">Programiz</a> to test my skills.
 
 <h2>Inheritance</h2>
+
 By allowing new classes to inherit the properties of existing classes, the notion of inheritance enables us to construct new classes from existing ones. The existing class from which new classes are created is known as the ***base class*** or ***parent class*** while the class which inherits the properties of this base class is known as ***child class*** or ***derived class***.
 To make a class inherit the properties of another class we use ***colon(':')***  after the child class name followed by the base class name. This style of syntax is a bit different from java where we use ***extends*** keyword to perform inheritance. Below is a basic syntax of inheritance in c#:
 
@@ -65,6 +66,7 @@ base.baseClassParameter
 To demonstrate the concept of method overriding and base keyword I have written <a href="https://github.com/sreenivas98/Learning_Journey/blob/main/CodePractice/OOP/MethodOverridingEx.cs">MethodOverridingEx.cs</a> program.
 
 <h2>Difficulties Faced</h2>
+
 During this week's learning process, I have encountered two challenges. The first involves attempting to call a base class method from a derived class method, and the second involves comprehending the usage of the virtual keyword. I assumed that ***super*** would be the keyword used in c# to call or access base class parameters from derived classes as super was used in java. However, when I tried to use the super keyword in different forms, such as ***super*** and ***super()***, I found that this was not the case. So, I started to look for the exact keyword that could help me achieve this and after a thorough diiging through the internet I found the suitable keyword ***base*** to achieve my goal and succeeded. 
 
 My other challenge was with understanding the usage of ***virtual*** keyword in c# programming language. To understand why this virtual keyword is used in c# i have gone though various websites ignoring microsoft's official website. Every website provided where this keyword was used but not the actual explanation of why. After going through various websites I decided to go through the explanation provided in <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual">microsoft official website</a> and this one provided a clear explanation of why and where this virtual keyword is used which helped understand everything about this special keyword in c# programming. The virtual keyword is used to modify a method, property, indexer, or event declaration and allow for it to be overridden in a derived class. For example the below method can be overridden by any class that inherits the below class:
